@@ -1,0 +1,8 @@
+argv = ['/Users/adityaanand/pebble-dev/PebbleSDK-2.0.1/Pebble/waf', 'configure', 'build']
+environ = {'TERM_SESSION_ID': 'B28DDE87-FFD9-42AB-80FF-48459B844E89', 'PYTHONPATH': '/Users/adityaanand/pebble-dev/PebbleSDK-current/bin/../.env/lib/python2.7/site-packages', 'SSH_AUTH_SOCK': '/tmp/launch-Ug0qY5/Listeners', 'TERM_PROGRAM_VERSION': '326', 'SHELL': '/bin/bash', 'LOGNAME': 'adityaanand', 'USER': 'adityaanand', 'HOME': '/Users/adityaanand', 'PATH': '/Users/adityaanand/pebble-dev/PebbleSDK-2.0.1/arm-cs-tools/bin:/opt/local/bin:/opt/local/sbin:/Users/adityaanand/pebble-dev/PebbleSDK-current/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin', 'DISPLAY': '/tmp/launch-xZUsIJ/org.macosforge.xquartz:0', 'TMPDIR': '/var/folders/_2/jmby76zj68q7cdp1w1p5qm600000gn/T/', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_US.UTF-8', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/tmp/launch-zXDSNl/Render', 'SHLVL': '2', '__CF_USER_TEXT_ENCODING': '0x1F5:0:0', 'PWD': '/Users/adityaanand/simplicity', '_': '/Users/adityaanand/pebble-dev/PebbleSDK-2.0.1/Pebble/waf', '__CHECKFIX1436934': '1'}
+files = ['/Users/adityaanand/simplicity/wscript']
+hash = 4672844372416070989
+options = {'files': '', 'jobs': 4, 'verbose': 0, 'nocache': False, 'progress_bar': 0, 'timestamp': None, 'distcheck_args': None, 'top': '', 'destdir': '', 'keep': 0, 'zones': '', 'debug': False, 'prefix': '/usr/local/', 'download': False, 'force': False, 'targets': '', 'out': ''}
+out_dir = '/Users/adityaanand/simplicity/build'
+run_dir = '/Users/adityaanand/simplicity'
+top_dir = '/Users/adityaanand/simplicity'

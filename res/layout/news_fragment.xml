@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/Local"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:text="@string/local" />
+
+            <Button
+                android:id="@+id/Regional"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:text="@string/regional" />
+
+            <Button
+                android:id="@+id/National"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:text="@string/national" />
+
+            <Button
+                android:id="@+id/World"
+                android:layout_width="175dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="14dp"
+                android:text="@string/world" />
+
+            
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/horizontalScrollView5"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+     >
+        
+        <ListView 
+            android:id="@+id/listSports"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerHeight="0.1dp"
+            android:divider="#0000CC"
+            android:background="@drawable/listbackground"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:padding="10dp"
+            >
+            
+        </ListView>
+
+    </LinearLayout>
+    
+</RelativeLayout>

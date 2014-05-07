@@ -1,0 +1,13 @@
+Pebble Documentation
+
+The appinfo.json file in the Pebble home folder controls the settings of the Pebble App, including its name, unique ID, and version.
+
+The src folder contains the Pebble code in watchface.c.
+
+The code controls the Pebble watch face in 7 layers. The phone can send text to any of the Pebble’s 7 layers, saving the trouble of formatting any text on the Pebble side of the code, which is all C.
+
+As a proof of concept, line 2 and line 5 of the Pebble screen can accept character strings longer than 12 chars and will scroll them. In the future, the scrolling code must be made more efficient and added to all 7 lines.
+
+The Pebble updates every second (even though the function is named minute_tick, its registered as a second handler), this is so that the scroll update happens every second. If the scroll is not needed, the Pebble can be set to update every minute to save battery life.
+
+To build the Pebble code run “pebble build” from the home directory, to install it on your Pebble run “pebble install —phone “PHONES IP”” and make sure the phone is connected to the same network as your computer, and that your Pebble app on your phone is running and connected to your Pebble.

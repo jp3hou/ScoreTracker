@@ -1,0 +1,9 @@
+Android Documentation
+
+For the Android portion of the code, the MainActivity defines the buttons of the GUI and initializes the PebbleCheckService class. The reason this is a service is so that it can keep running in the background even when the app is shut down. As a future feature, it should be possible to shut the service down on restarting the app.
+
+Each feed that is delivered to the phone and from there to the Pebble has its own fragment. The fragment handles its local buttons, so for example the news fragment will handle the buttons for local, regional, national, world news. There are currently 4 fragments defined: news, twitter, weather, sports.
+
+PebbleCheckService obtains the weather for a certain city in getWeather(). getWeather doesn’t allow spaces in the city name, they must be manually parsed and replaced with %20. The getWeather service obtains temperature and humidity and sends it to the Pebble. For more information on how data is sent to the Pebble, read the Pebble documentation in the Pebble code (PebbleSportsService is the Sports version of CheckService).
+
+To get the code to run, add the Pebble Android SDK and JUnit jars to the project.
